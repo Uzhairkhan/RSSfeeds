@@ -1,0 +1,19 @@
+{
+  "name": "rss_feeds",
+  "version": "1.0.0",
+  "description": "Get RSS Feeds from TOI",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently \"nodemon server.js\" \"cd client && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "UzhairKhan",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "xml2js": "^0.4.23"
+  }
+}
